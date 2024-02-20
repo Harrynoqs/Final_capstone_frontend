@@ -2,9 +2,23 @@
   text-align: center;
 }
 
-.App-logo {
+.active {
+  background-color: #4f98c9;
+  color: white;
+}
+
+.active:hover {
+  background-color: #498bb8;
+  color: white;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
+} */
+
+.footer-center {
+  margin: 0 auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
