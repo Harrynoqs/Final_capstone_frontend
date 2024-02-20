@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Item from './components/Item/Item';
-import AddItem from './components/AddItem/AddItem';
-import DeleteItem from './components/DeleteItem/DeleteItem';
-import AddReservation from './components/AddReservation/AddReservation';
-import MyReservation from './components/MyReservation/MyReservation';
+import Item from './components/Item';
+import AddItem from './components/AddItem';
+import DeleteItem from './components/DeleteItem';
+import AddReservation from './components/AddReservation';
+import MyReservation from './components/MyReservation';
 
 function App() {
   return (
